@@ -28,6 +28,8 @@
 
 ## Installation
 
+Create a '.env' file with content like this: DATABASE_URL="postgresql://username:password@localhost:5432/databasename"
+
 ```bash
 $ npm install
 ```
