@@ -28,8 +28,16 @@
 
 ## Installation
 
-Create a '.env' file with content like this: DATABASE_URL="postgresql://username:password@localhost:5432/databasename"
+Create a '.env' file with the following content: 
+```
+DATABASE_URL="postgresql://username:password@localhost:5432/databasename"
+PORT="3000"
 
+AUTH0_AUDIENCE=<your audience>
+AUTH0_ISSUER_URL=<your issuer url>
+```
+
+Run the following commands
 ```bash
 $ npm install
 $ npx prisma migrate dev
