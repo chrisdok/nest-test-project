@@ -32,6 +32,8 @@ Create a '.env' file with content like this: DATABASE_URL="postgresql://username
 
 ```bash
 $ npm install
+$ npx prisma migrate dev
+$ npx prisma db seed
 ```
 
 ## Running the app
